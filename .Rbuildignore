@@ -1,2 +1,7 @@
 ^LICENSE\.md$
 dietJuicerTools.Rproj
+^README\.Rmd$
+^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
