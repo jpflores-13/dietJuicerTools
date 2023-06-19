@@ -1,5 +1,5 @@
 Package: dietJuicerTools
-Title: What the Package Does (One Line, Title Case)
+Title: This package is a suite of tools for users of the Phanstiel Lab's genomic data processing pipelines
 Version: 0.0.0.9000
 Authors@R: 
     person("JP", "Flores", , "jpflores013@gmail.com", role = c("aut", "cre"),
