@@ -21,6 +21,8 @@
 #' @param Sequencing_Directory A character value specifying the file path housing the .fq.gz files
 #' 
 #' @return data.frame, .txt file
+#' 
+#' @export
 
 rna_samplesheet <- function(Project, Cell_Type, Genotype, Bio_Rep, nSamples, nReps,
                             Tech_Rep, Read1, Read2, Sequencing_Directory){

@@ -23,6 +23,8 @@
 #' @param singleEnd a logical value specifying whether or not the data is single-end sequenced
 #' 
 #' @return data.frame, .txt file
+#' 
+#' @export
 
 chip_samplesheet <- function(Project, Cell_Type, nSamples, nReps, Genotype, Bio_Rep,
                              Tech_Rep, Read1, Read2, Sequencing_Directory,
