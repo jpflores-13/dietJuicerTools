@@ -9,6 +9,8 @@ atac_samplesheet(
   Cell_Type,
   nSamples,
   nReps,
+  Treatment,
+  Time,
   Genotype,
   Bio_Rep,
   Tech_Rep,
@@ -25,6 +27,10 @@ atac_samplesheet(
 \item{nSamples}{A numeric specifying the number of samples}
 
 \item{nReps}{A numeric specifying the number of biological replicates}
+
+\item{Treatment}{A character value specifying the type of treatment done on cells}
+
+\item{Time}{A character value specifying the amount of type cells have undergone treatment}
 
 \item{Genotype}{A character, list, or vector value specifying which cell type you are using}
 

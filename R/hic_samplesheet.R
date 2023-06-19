@@ -10,6 +10,10 @@
 #' 
 #' @param Genotype A character, list, or vector value specifying which cell type you are using
 #' 
+#' @param Treatment A character value specifying the type of treatment done on cells
+#' 
+#' @param Time A character value specifying the amount of type cells have undergone treatment
+#' 
 #' @param Bio_Rep A numeric specifying how many biological replicates per unique genotype
 #' 
 #' @param Tech_Rep A numeric specifying how many technical replicates per biological replicate
@@ -23,13 +27,15 @@
 #' @return data.frame, .txt file
 #' 
 #' @export
-hic_samplesheet <- function(Project, nSamples, nReps, Cell_Type, Genotype, Bio_Rep,
+hic_samplesheet <- function(Project, nSamples, nReps, Cell_Type, Genotype, Treatment, Time, Bio_Rep,
                             Tech_Rep, Read1, Read2, Sequencing_Directory){
 
   Project <- rep(as.character(Project), nSamples)
   Cell_Type <- rep(as.character(Cell_Type), nSamples)
   Genotype <- rep(as.character(Genotype, nReps))
   Bio_Rep <- length(unique(Genotype)) * nReps
+  Treatment <- rep(as.character(Treatment, nReps))
+  Time <- rep(as.character(Time, nReps))
   Tech_Rep <- as.numeric(Tech_Rep) # user-defined list
   Read1 <- rep("filename", nSamples) # user-defined paths
   Read2 <- rep("filename", nSamples)

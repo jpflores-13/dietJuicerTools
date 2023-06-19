@@ -10,6 +10,8 @@ hic_samplesheet(
   nReps,
   Cell_Type,
   Genotype,
+  Treatment,
+  Time,
   Bio_Rep,
   Tech_Rep,
   Read1,
@@ -27,6 +29,10 @@ hic_samplesheet(
 \item{Cell_Type}{A character value specifying which cell type you are using}
 
 \item{Genotype}{A character, list, or vector value specifying which cell type you are using}
+
+\item{Treatment}{A character value specifying the type of treatment done on cells}
+
+\item{Time}{A character value specifying the amount of type cells have undergone treatment}
 
 \item{Bio_Rep}{A numeric specifying how many biological replicates per unique genotype}
 
