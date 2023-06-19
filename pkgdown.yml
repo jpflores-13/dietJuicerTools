@@ -1,0 +1,10 @@
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  dietJuicerTools: dietJuicerTools.html
+last_built: 2023-06-19T19:52Z
+urls:
+  reference: https://jpflores-13.github.io/dietJuicerTools/reference
+  article: https://jpflores-13.github.io/dietJuicerTools/articles
+
