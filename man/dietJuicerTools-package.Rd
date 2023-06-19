@@ -8,6 +8,13 @@
 \description{
 What the package does (one paragraph).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://jpflores-13.github.io/dietJuicerTools/}
+}
+
+}
 \author{
 \strong{Maintainer}: JP Flores \email{jpflores013@gmail.com} (\href{https://orcid.org/0000-0001-5619-8990}{ORCID})
 
